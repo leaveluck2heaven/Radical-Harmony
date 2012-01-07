@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <persona>
+  
+      <avatar id="smog1" type="Smog" name="Smog 1"  >
+      <asset id="SMOG" width="62" height="40" />
+  
+  	<hitArea height="10" width="30" x="-15" y="-15" />
+         
+      <body>
+      <stat id="life" 	value= "250" 	max = "250" 	type = "life"						/>
+      </body>
+      
+      <animate>
+        <toon id="idle" rate="12" frames="9,8,7,6,5,4,3,2,1,0" loop="false" />
+      </animate>
+      
+      
+      
+      </avatar>
+    
+  </persona>
+</config>

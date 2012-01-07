@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <persona>
+  
+      <avatar id="smog1" type="Soul" name="Smog 1"  >
+      <asset id="SMOG" width="36" height="39" />
+      </avatar>
+    
+  </persona>
+</config>
