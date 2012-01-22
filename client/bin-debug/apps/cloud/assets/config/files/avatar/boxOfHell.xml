@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <persona>
+  
+      <avatar id="boxOfHell" type="BoxOfHell" name="Box Of Hell" collide="BOXOFHELL"  >
+      <asset id="BOXOFHELL" width="140" height="130" />
+      <hitArea height="20" width="20" x="-15" y="-15" />
+      
+      <animate>
+        <toon id="idle" 		rate="30" 	frames = "0,0,0,1,2,3,4,4,4,4,4,4,4,4,4,4,4,4,4,5,5,5,6,7,8,9,3,4,4"	loop="true"  />
+        <toon id="idleAlt" 		rate="30" 	start="45" 		end="49" 	loop="true"  />
+        <toon id="actionStart" 	rate="30" 	start="11" 		end="43" 	loop="false" />
+        <toon id="bounce" 		rate="24" 	start="51" 		end="69" 	loop="false" />
+      </animate>
+      
+      </avatar>
+    
+  </persona>
+</config>

@@ -6,20 +6,17 @@ package
     
     import starling.core.Starling;
     
-    [SWF(width="1000", height="550", frameRate="60", backgroundColor="#000000")]
-    public class StartupAir extends Sprite
+    [SWF(width="320", height="480", frameRate="60", backgroundColor="#222222")]
+    public class Startup extends Sprite
     {
         private var mStarling:Starling;
         
-        public function StartupAir()
+        public function Startup()
         {
             stage.scaleMode = StageScaleMode.NO_SCALE;
             stage.align = StageAlign.TOP_LEFT;
             
-            Starling.multitouchEnabled = true;
-            
-            mStarling = new Starling(Burner, stage);
-            mStarling.simulateMultitouch = true;
+            mStarling = new Starling(DynAtlasSample, stage);
             mStarling.enableErrorChecking = false;
             mStarling.start();
         }

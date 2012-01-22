@@ -4,7 +4,7 @@ package avatar
 	import starling.textures.Texture;
 	import starling.textures.TextureAtlas;
 
-	public class AvatarView
+	public class Toon
 	{
 		
 		public var data:XML = new XML
@@ -27,7 +27,7 @@ package avatar
 			
 		public var movie:MovieClip;
 		
-		public function AvatarView()
+		public function Toon()
 		{
 			
 			//var texture:Texture = getTexture("AtlasTexture");

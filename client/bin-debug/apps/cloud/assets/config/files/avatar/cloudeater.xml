@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <persona>
+  
+      <avatar id="cloudeater" type="CloudEater" name="CloudEater" collide="CLOUDEATER" >
+      <asset id="CLOUDEATER" width="90" height="90" />
+      <hitArea height="20" width="20" x="-10" y="0" />
+      
+       <animate>
+        <toon id="idle" 		 	rate="12" 	frames="2,3,4,3,2" 	        loop="true" />
+        <toon id="actionStart" 		rate="30" 	start="2" end="27" 			loop="false" />
+        <toon id="bounce" 			rate="24" 	start="29" end="39" 		loop="false" />
+        <toon id="poop" 			rate="24" 	frames="0,0,0,0,0,0,1,2"    loop="false" />
+      </animate>
+      
+      </avatar>
+    
+  </persona>
+</config>

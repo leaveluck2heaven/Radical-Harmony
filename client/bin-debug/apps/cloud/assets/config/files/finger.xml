@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+
+<story width="320" height="200" worldScale="1" assetScale="1" gravity = "0" debugSprites = "false" debugPhysics = "false" >
+    
+    <chapter id ="scene1">
+       
+    <backgroundList>
+      	<background id="highway" 			asset="HIGHWAY"  			y="-25"    scrollX="1" 	    scrollY=".9" repeatY="false" />
+    </backgroundList>
+    
+     <avatarList>
+     
+     <avatar id = "horse" 		x="150"		y="120"  layer="-15"  />
+     <avatar id = "girl" 		x="190"		y="100"  layer="-15"  />
+     		  	
+     </avatarList>
+     
+     <platformList>
+     </platformList>
+     
+    </chapter>
+    
+ </story>
+ 
+ </config >

@@ -78,7 +78,7 @@ package starling.textures
         
         private function parseAtlasXml(atlasXml:XML):void
         {
-            for each (var subTexture:XML in atlasXml.SubTexture)
+           for each (var subTexture:XML in atlasXml.SubTexture)
             {                
                 var name:String        = subTexture.attribute("name");
                 var x:Number           = parseFloat(subTexture.attribute("x"));

@@ -1,5 +1,6 @@
 package 
 {
+    import flash.events.MouseEvent;
     import flash.utils.getDefinitionByName;
     import flash.utils.getQualifiedClassName;
     
@@ -35,8 +36,8 @@ package
             
             mMainMenu = new Sprite();
             addChild(mMainMenu);
-            
-            var logo:Image = new Image(Assets.getTexture("Logo"));
+			
+			var logo:Image = new Image(Assets.getTexture("Logo"));
             logo.x = int((bg.width - logo.width) / 2);
             logo.y = 50;
             mMainMenu.addChild(logo);
@@ -70,7 +71,20 @@ package
             }
             
             addEventListener(Scene.CLOSING, onSceneClosing);
+			
+			var avatar:Avatar = new Avatar;
+			
+			addChild( avatar );
+			//removeChild( avatar );
+			
+			mMainMenu.addEventListener( MouseEvent.MOUSE_DOWN, newMouse );
         }
+		
+		private function newMouse ( event:MouseEvent ):void
+		{
+			trace("we have a mouse event");
+			
+		}
         
         private function onButtonTriggered(event:Event):void
         {

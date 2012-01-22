@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<config>
+
+<story width="320" height="200" worldScale="1" assetScale="1" gravity = "0" debugSprites = "false" debugPhysics = "false" >
+    
+    <chapter id ="cloudEater">
+       
+    <backgroundList>
+    	<background id="moutains2" 		asset="MOUNTAINS2"  	y="88" 	   scrollX=".25" 	scrollY="1"  repeatY="false" />
+      	<background id="moutains" 		asset="MOUNTAINS"  		y="90" 	   scrollX=".5" 	scrollY="1"  repeatY="false" />
+      	<background id="water" 			asset="WATER"  			y="100"    scrollX="1" 	    scrollY=".9" repeatY="false" />
+    </backgroundList>
+    
+     <avatarList>
+    	
+    	<avatar id = "cloudeater" 			x="200"			y="90"  layer="-15"  />
+    	<avatar id = "boxOfHell" 			x="250"			y="90"  layer="-15"  />
+    		  	
+     </avatarList>
+     
+     <platformList>
+     	<platform id="top"  		type="floor" x="0"  	y="0" width="640" 		height="4" 		friction="0" 	mass="0" 	spring=".5" />	
+		<platform id="bottom"  		type="floor" x="0"  	y="180" width="640" 	height="4" 		friction="0" 	mass="0" 	spring=".5" />
+		<platform id="left"  		type="floor" x="-4"  	y="0" 	width="4" 		height="200" 	friction="0" 	mass="0" 	spring=".5" />	
+		<platform id="right"  		type="floor" x="320"  	y="0"	width="4" 		height="200" 	friction="0" 	mass="0" 	spring=".5" />
+    </platformList>
+     
+    </chapter>
+    
+ </story>
+ 
+ </config >
